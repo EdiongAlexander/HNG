@@ -125,6 +125,10 @@ progress{
     .bars-blue, .bars-green{
         width: 80%;
      }
+
+ nav img{
+ height: 30px;
+       }
 }
 
 @media only screen and (max-width: 350px){
@@ -132,5 +136,8 @@ progress{
         flex-direction: column;
         padding-bottom: 10px;
     }
+nav img{
+ height: 20px;
+       }
 }
 
