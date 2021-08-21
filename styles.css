@@ -8,8 +8,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    margin-left: 10%;
-    margin-right: 10%;
     background-color: mintcream;
     color: #222;
 }
@@ -26,11 +24,16 @@ nav img{
 }
 
 nav a{
-    color: #222;
+    color: royalblue;
+    text-decoration: none;
 }
 
 .container{
     background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
 }
 
 
@@ -126,9 +129,10 @@ progress{
         width: 80%;
      }
 
- nav img{
- height: 30px;
-       }
+     .container{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
 @media only screen and (max-width: 350px){
@@ -136,12 +140,10 @@ progress{
         flex-direction: column;
         padding-bottom: 10px;
     }
-nav img{
- height: 20px;
-       }
 
-body{
-margin-right: 0;
-margin-left: 0;}
+    .container{
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
